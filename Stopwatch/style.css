@@ -1,0 +1,44 @@
+.timerbtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid ;
+    border-radius:12px;
+    background-color: #353d94;
+    color:white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#time{
+    font-size: 100px;
+    color:rgb(255, 254, 251);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#counter{
+    text-align: center;
+    border: 3px solid ;
+    border-radius: 25px;
+    background-color: #1a1144;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(2, 2, 2);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#startbtn:hover{
+    background-color: #60a4e3; 
+    color: rgb(136, 181, 181);
+}
+#stopbtn:hover{
+    background-color: #e36060; 
+    color: rgb(136, 181, 181);
+}
+#resetbtn:hover{
+    background-color: #60e3a4; 
+    color: rgb(136, 181, 181);
+}
