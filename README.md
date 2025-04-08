@@ -3,6 +3,7 @@
 This repo is for my dev journey through mini projects.
 
 ### Projects:
-- ⏱️ Stopwatch (HTML, CSS, JS)
+- ⏱️ Stopwatch
+- 📐 Hypotenuse Calculator
 
 More coming soon!
