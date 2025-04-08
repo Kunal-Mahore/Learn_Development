@@ -1,4 +1,3 @@
-/* Base Reset & Aesthetic */
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +13,6 @@ body {
     font-family: 'Inter', 'Segoe UI', sans-serif;
     color: #333;
 }
-
-/* Main Card */
 .container {
     background: #ffffffcc;
     backdrop-filter: blur(12px);
@@ -32,7 +29,6 @@ body {
     transform: translateY(-4px);
 }
 
-/* Heading */
 h1 {
     font-size: 28px;
     font-weight: 600;
@@ -40,7 +36,6 @@ h1 {
     margin-bottom: 28px;
 }
 
-/* Labels & Inputs */
 label {
     display: block;
     font-size: 16px;
@@ -65,7 +60,6 @@ input[type="text"]:focus {
     outline: none;
 }
 
-/* Button */
 button {
     width: 100%;
     background: linear-gradient(to right, #3b82f6, #6366f1);
@@ -84,7 +78,6 @@ button:hover {
     transform: scale(1.02);
 }
 
-/* Result Text */
 #clabel {
     margin-top: 24px;
     font-size: 20px;
