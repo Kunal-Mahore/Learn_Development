@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #abdede;
+}
+
+#countlb {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: block;
+    color: #272727;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#decreasebtn {
+    background-color: #f44336;
+    color: white;
+}
+
+#decreasebtn:hover {
+    background-color: #dd1414;
+}
+
+#resetbtn {
+    background-color: #9e9e9e;
+    color: white;
+}
+
+#resetbtn:hover {
+    background-color: #757575;
+}
+
+#increasebtn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#increasebtn:hover {
+    background-color: #1d9923;
+}
