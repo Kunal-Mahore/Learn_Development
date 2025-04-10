@@ -1,7 +1,7 @@
 function rollDice(){
-    const numdice = document.getElementById("numdice").ariaValueMax;
+    const numdice = document.getElementById("numdice").value;
     const diceres = document.getElementById("diceres");
-    const img = document.getElementById("img");
+    const imgs = document.getElementById("imgs");
     const values = [];
     const images = [];
 
@@ -12,5 +12,5 @@ function rollDice(){
     }
 
     diceres.textContent = `You rolled: ${values.join(", ")}`;
-    img.innerHTML = images.join("");
+    imgs.innerHTML = images.join(" ");
 }
