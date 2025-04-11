@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fancy Digital Clock</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="clock-container">
+    <div class="greeting" id="greeting">Hello!</div>
+    <div class="clock" id="clock">00:00:00</div>
+    <div class="date" id="date">Loading date...</div>
+
+    <div class="controls">
+      <div class="toggle-wrapper">
+        <label class="switch">
+          <input type="checkbox" id="format-toggle">
+          <span class="slider"></span>
+        </label>
+        <span id="format-label">12h</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
